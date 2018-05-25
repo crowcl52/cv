@@ -9,6 +9,7 @@ import { AboutComponent } from './components/landing/about/about.component';
 import { SkillComponent } from './components/landing/skill/skill.component';
 import { SchollComponent } from './components/landing/scholl/scholl.component';
 import { JobComponent } from './components/landing/job/job.component';
+import { ContactComponent } from './components/landing/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { JobComponent } from './components/landing/job/job.component';
     AboutComponent,
     SkillComponent,
     SchollComponent,
-    JobComponent
+    JobComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

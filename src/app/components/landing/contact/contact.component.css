@@ -1,0 +1,12 @@
+.contact{
+    width: 100%;
+    min-height: 200px;
+    background: black;
+    color: white;
+}
+
+.contact-info{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 60px;
+}
