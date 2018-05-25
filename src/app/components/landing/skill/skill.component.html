@@ -1,0 +1,10 @@
+<h2 align="center" class="main-title top30">Skills</h2>
+<div data-aos="zoom-in" style="display: block">
+  <canvas baseChart
+          [datasets]="radarChartData"
+          [labels]="radarChartLabels"
+          [chartType]="radarChartType"
+          [colors]="lineChartColors"
+          (chartHover)="chartHovered($event)"
+          (chartClick)="chartClicked($event)"></canvas>
+</div>
